@@ -1,8 +1,6 @@
 import { createClient } from '@supabase/supabase-js'
 
 const supabaseUrl = 'https://zeocbftriydodzfgixjv.supabase.co'
-
-// 👇 حط المفتاح هنا
-const supabaseKey = 'PUT_YOUR_PUBLISHABLE_KEY_HERE'
+const supabaseKey = 'sb_publishable_b5oQYxCWh6pwJsf8zDvDFA_HEcuoHCj'
 
 export const supabase = createClient(supabaseUrl, supabaseKey)
